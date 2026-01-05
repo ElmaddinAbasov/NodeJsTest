@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Application</title>
+                <meta charset="UTF-8">
+                <meta author="Abasov Elmaddin">
+        </head>
+        <body>
+		<h1>Authentification API</h1><br><br>
+                <form method="post" action="/auth_api/submit">
+			<label for="auth_api_option">Choose an option</label><br><br>
+			<select name="auth_api_option" id="auth_api_option">
+				<option value="get_user_by_id">Get User By Id</option>
+				<option value="get_list_of_users">Get List Of Users</option>
+				<option value="block_user">Block User</option>
+			</select>
+			<label for="value">ID Or User`s Email</label>
+			<input type="text" id="value" name="value">
+			<button type="submit">Submit</button><br>
+                </form>
+        </body>
+</html>

@@ -1,0 +1,2 @@
+1. check if the user exist while you`re trying to autherise
+

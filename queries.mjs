@@ -8,6 +8,7 @@ export class queries
 		this.#sqlQueries.set("create db", "CREATE DATABASE ");
 		this.#sqlQueries.set("create tb", "CREATE TABLE ");
 		this.#sqlQueries.set("insert", "INSERT INTO ");
+		this.#sqlQueries.set("select_all", "SELECT * FROM ");
 	}
 	constrcutAQuery(args)
 	{
